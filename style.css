@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair Display');
+
+main {
+    color:white;
+    font-size:30px;
+    font-family:'Playfair Display', sans-serif;
+    width:30%;
+    background-color: blue;
+}
+
+.exp{
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.lenguage-lvl{
+    background-color: white;
+    border-radius: 50px;
+}
