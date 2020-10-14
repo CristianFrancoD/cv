@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair Display');
 
+:root{
+    /*add css variables for colors*/
+
+}
+
 *{
     margin:0;
     list-style: none;
@@ -9,15 +14,18 @@
 .left-cont {
     color:white;
     font-family:'Playfair Display', sans-serif;
-    width:30%;
+    width:30vw;
+    float: left;
     background-color: #003c74ff;
-    height: 100vh;
+    
 }
-.personal-info ul{
+
+
+.left-cont ul{
     margin-bottom: 10px;
 }
 
-.personal-info ul li{
+.left-cont ul li{
   padding: 10px 5px 5px 10px;
   
 
@@ -38,16 +46,24 @@ h2{
     padding:10px;
     padding-top:0;
 }
-.exp{
-    border-color:black;
-    border-width: 2px;
-    border-style: solid;
-}
+
 
 h3{
     background-color:#002e58ff;
     padding:10px;
 
+}
+.right-cont{
+    width: 70vw;
+    float:right;
+    background-color:white;
+}
+
+.right-cont h3{
+    border-bottom: grey 1px solid;
+    border-top: grey 1px solid;
+    margin:7px;
+    background-color:white;
 }
 
 .lenguage-lvl{
