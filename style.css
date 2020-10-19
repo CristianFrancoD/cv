@@ -38,6 +38,10 @@
     
   
   }
+  .right-cont p {
+    padding: 0.1em 0.8em 0.5em 2.8em;
+
+  }
 
 a:link, a:visited {
     text-decoration: none;
