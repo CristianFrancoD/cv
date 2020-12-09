@@ -7,7 +7,6 @@
 
 *{
     margin:0;
-    list-style: none;
     padding: 0;
     font-family:'Playfair Display', sans-serif;
 }
@@ -87,4 +86,13 @@ h3{
 .lenguage-lvl{
     background-color: white;
     border-radius: 50px;
+}
+.skills ul li{
+    list-style:square;
+    margin-left: 2em;
+
+
+}
+.job-title{
+    text-decoration: underline;
 }
